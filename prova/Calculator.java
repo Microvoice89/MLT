@@ -5,7 +5,7 @@ public class Calculator {
 	public enum Operator{ADD, SUBTRACT, MULTIPLY, DIVIDE}
 	
 	public Calculator() {
-		
+		{}
 	}
 	
 	public double performOperation(double a, double b, Operator operator) {
